@@ -4,4 +4,6 @@
 
 #searchArea{
     margin-top: 50px;
+    display: inline-block;
+    float: right;
 }

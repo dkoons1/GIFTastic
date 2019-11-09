@@ -63,6 +63,8 @@ $(document).ready(function() {
                 showDiv.append(p);
                 showDiv.prepend(showImage);
                 showDiv.css("margin-bottom", "50px")
+                showDiv.css("margin-right", "50px")
+                showDiv.css("display", "inline-block")
                 $("#gifArea").prepend(showDiv)
               }
     
