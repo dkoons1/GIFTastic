@@ -66,19 +66,19 @@ $(document).ready(function() {
                 showDiv.css("margin-right", "50px")
                 showDiv.css("display", "inline-block")
                 $("#gifArea").prepend(showDiv)
+                    
               }
-    
               $(".gif").on("click", function() {
-                   console.log($(this))
-                   var state = $(this).attr("data-state");
-                   if (state === "still") {
-                    $(this).attr("src", $(this).attr("data-animate"));
-                    $(this).attr("data-state", "animate");
-                   } else {
-                    $(this).attr("src", $(this).attr("data-still"));
-                    $(this).attr("data-state", "still");
-                  }
-            })
+                console.log($(this))
+                var state = $(this).attr("data-state");
+                if (state === "still") {
+                 $(this).attr("src", $(this).attr("data-animate"));
+                 $(this).attr("data-state", "animate");
+                } else {
+                 $(this).attr("src", $(this).attr("data-still"));
+                 $(this).attr("data-state", "still");
+               }
+         })
         })
     })
     renderButtons();

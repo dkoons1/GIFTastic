@@ -1,9 +1,29 @@
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
 #gifArea{
     margin-top: 50px;
+    max-width: 960px;   
 }
 
 #searchArea{
     margin-top: 50px;
+    margin-right: 100px;
     display: inline-block;
     float: right;
+}
+
+button{
+    padding: 10px;
+    background: deepskyblue;
+    font-size: 14px;
+    color: white;
+}
+
+input[type=submit] {
+    padding: 10px;
+    background: deepskyblue;
+    font-size: 14px;
+    color: white;
 }
