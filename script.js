@@ -39,7 +39,7 @@ $(document).ready(function() {
         var show = $(this).attr("data-show");
 
         var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
-          show + "&api_key=BkaUZZWcFij6J7AoQj3WtPb1R2p9O6V9&limit=10";
+          show + "&api_key=8Uz0VX7TDbM2Vs9ziIHn2mO785jBpCXS&limit=10";
 
           $.ajax({
             url: queryURL,
